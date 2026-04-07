@@ -2,9 +2,9 @@ import { Download, CreditCard, Receipt, ArrowUpRight, CheckCircle2 } from "lucid
 
 export default function BillingPage() {
   const invoices = [
-    { id: "INV-2023-08", date: "Aug 1, 2023", amount: "$2,500", status: "Paid" },
-    { id: "INV-2023-07", date: "Jul 1, 2023", amount: "$2,500", status: "Paid" },
-    { id: "INV-2023-06", date: "Jun 1, 2023", amount: "$2,500", status: "Paid" },
+    { id: "INV-2023-08", date: "Aug 1, 2023", amount: "$1,000", status: "Paid" },
+    { id: "INV-2023-07", date: "Jul 1, 2023", amount: "$1,000", status: "Paid" },
+    { id: "INV-2023-06", date: "Jun 1, 2023", amount: "$1,000", status: "Paid" },
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function BillingPage() {
               <p className="text-zinc-400 max-w-md">15 Short-form videos and 2 Long-form videos per month. Priority support included.</p>
             </div>
             <div className="text-right">
-              <p className="text-4xl font-bold text-white">$2,500</p>
+              <p className="text-4xl font-bold text-white">$1000</p>
               <p className="text-zinc-500 text-sm">/ month</p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function BillingPage() {
               </div>
               <div>
                 <p className="text-white font-medium">Visa ending in 4242</p>
-                <p className="text-zinc-500 text-sm">Next billing on Sep 1, 2023</p>
+                <p className="text-zinc-500 text-sm">Next billing on May 25, 2026</p>
               </div>
             </div>
             
